@@ -1,0 +1,109 @@
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Arial";
+}
+
+.errorProgress {
+  margin: 0 auto;
+  width: 50%;
+  border: 5px ridge #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: inherit;
+
+}
+
+input[type=text] {
+  width: 50%;
+  font-size: 25px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit] {
+  background-color: rgb(89, 89, 89);
+  border: 50px;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.topPanel {
+  width: 35%;
+  margin: 0 auto;
+  border: 2px solid #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: inherit;
+}
+.topPanel h1 {
+  font-size: 50px;
+margin-bottom: 0px;
+}
+.middlePanel {
+    margin: 0 auto;
+    width: 35%;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: inherit;
+  
+  }
+.lowerPanel {
+    margin: 0 auto;
+    width: 35%;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: inherit;
+  }
+  .lowerPanel p {
+    text-align: center;
+    color:black;
+    font-size: 25px;
+  }
+  .infoPanel, .playerPanel {
+    margin: 0 auto;
+    width: 35%;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: inherit;
+  }
+  .infoPanel p, .playerPanel p {
+    text-align: center;
+    color:black;
+    font-size: 25px;
+    margin-top: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .infoPanel h1, .lowerPanel h1, .middlePanel h1, .playerPanel h1 {
+    color: #000000;
+    text-align: left;
+    font-size: 1.3em;
+    /* text-shadow: 2px 2px 4px #6d6d6d; */
+    margin: 0;
+    position: relative;
+    top: -3px;
+    left: 3px;
+    padding-bottom: 5px;
+    font-family: inherit;
+  }
+  .centered-textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+.playerPanelHp {
+font-size: 30px;
+}
+
