@@ -89,4 +89,3 @@ function debug() {
     echo "SESSION: \n";
     print_r($_SESSION);
 }
-github
